@@ -6,7 +6,7 @@ export default function Navbar() {
     <header className="w-full shadow-sm px-7 py-6 flex justify-between items-center">
       {/* Left Menu */}
       <nav className="flex gap-8 text-sm font-semibold text-beige-800">
-      <Link to="/home">   
+      <Link to="/">   
         <div className="flex items-center gap-1 cursor-pointer">
           Home
         </div>
