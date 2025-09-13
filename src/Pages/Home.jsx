@@ -1,4 +1,5 @@
 import { Star } from "lucide-react";
+import { Link } from "react-router-dom";
 export default function Home() {
   const products = [
   {
@@ -54,9 +55,11 @@ export default function Home() {
 
         {/* Buttons */}
         <div className="flex gap-4">
+          <Link to="/mens">
           <button className="px-6 py-2 text-white border border-black rounded hover:bg-beige-400 hover:text-beige-900 transition">
             SHOP NOW
           </button>
+          </Link>
         </div>
       </div>
     </section>
