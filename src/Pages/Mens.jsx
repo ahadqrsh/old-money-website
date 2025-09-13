@@ -1,5 +1,5 @@
 import React from "react";
-
+import Navbar from "../Components/Navbar";
 // Tailwind-based single-file React component (default export)
 // Usage:
 // 1. Create a new React app (create-react-app or Vite)
@@ -23,7 +23,9 @@ const products = [
 
 export default function Mens() {
   return (
-    <div className="min-h-screen bg-gray-50 text-gray-900">
+    <>
+    <Navbar/>
+    <div className="min-h-screen bg-gray-50 text-gray-900 mt-16">
       {/* Header / Hero */}
       <header className="bg-white shadow">
         <div className="">
@@ -46,7 +48,7 @@ export default function Mens() {
       </header>
 
       {/* Hero banner */}
-      <section className="relative bg-cover bg-center" style={{ backgroundImage: `url('https://old-money.com/cdn/shop/files/Heading_940_x_400_px_32.png?v=1751444747')` }}>
+      <section className="relative bg-cover bg-center " style={{ backgroundImage: `url('https://old-money.com/cdn/shop/files/Heading_940_x_400_px_32.png?v=1751444747')` }}>
         <div className="backdrop-filter backdrop-brightness-75">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
             <h2 className="text-3xl md:text-5xl font-extrabold text-Green text-"></h2>
@@ -114,5 +116,6 @@ export default function Mens() {
         </div>
       </footer>
     </div>
+    </>
   );
 }

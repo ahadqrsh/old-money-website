@@ -1,22 +1,26 @@
 import { Search, ShoppingCart } from "lucide-react";
-import Link  from "react-dom";
+import {Link}  from "react-router-dom";
 export default function Navbar() {
   return (
-    <div className="fixed top-0 left-0 w-full z-50 bg-beige-100">
+    <div className="fixed top-0 left-0 w-full  bg-beige-100">
     <header className="w-full shadow-sm px-7 py-6 flex justify-between items-center">
       {/* Left Menu */}
       <nav className="flex gap-8 text-sm font-semibold text-beige-800">
-      
+      <Link to="/mens">   
         <div className="flex items-center gap-1 cursor-pointer">
           SHOP MEN
         </div>
-      
+      </Link>
+      <Link to="/aboutus">
         <div className="flex items-center gap-1 cursor-pointer">
           About Us
         </div>
+        </Link>
+        <Link to="/contact">
         <div className="flex items-center gap-1 cursor-pointer">
           Contact Us 
         </div>
+        </Link>
       </nav>
 
       {/* Center Logo */}
