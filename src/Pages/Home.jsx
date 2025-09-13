@@ -1,3 +1,4 @@
+import { Star } from "lucide-react";
 export default function Home() {
   const products = [
   {
@@ -5,7 +6,7 @@ export default function Home() {
     title: "Classic Suede Loafers",
     price: "₹6,500",
     save: "₹4,900.00",
-    image: "/shoes1.png",
+    image: "https://tse1.mm.bing.net/th/id/OIP.HTjShK7JAlml8Qq7OWDpowAAAA?rs=1&pid=ImgDetMain&o=7&rm=3",
     reviews: 68,
   },
   {
@@ -13,7 +14,7 @@ export default function Home() {
     title: "Beige Linen Shirt",
     price: "₹2,800",
     save: "₹1,700.00",
-    image: "/shirt1.png",
+    image: "https://tse2.mm.bing.net/th/id/OIP.hZonpQl_oripetPSdbH5EgHaJ4?rs=1&pid=ImgDetMain&o=7&rm=3",
     reviews: 18,
   },
   {
@@ -21,15 +22,15 @@ export default function Home() {
     title: "Tan Leather Loafers",
     price: "₹7,200",
     save: "₹5,600.00",
-    image: "/shoes2.png",
+    image: "https://tse4.mm.bing.net/th/id/OIP.8dK72aijy7jgXlFxtBhoDAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
     reviews: 39,
   },
   {
     id: 4,
-    title: "Ivory Knit Polo",
+    title: "Beige Cordroy Pant",
     price: "₹3,200",
     save: "₹2,100.00",
-    image: "/polo1.png",
+    image: "https://tse1.mm.bing.net/th/id/OIP.KR1ktjEpcNjKd2Yo6G_9iQHaLH?rs=1&pid=ImgDetMain&o=7&rm=3",
     reviews: 1,
   },
 ];
@@ -40,21 +41,21 @@ export default function Home() {
       <img
         src="https://old-money.com/cdn/shop/files/Untitled_3000_x_2000_px_3000_x_1700_px_6.png?v=1757410800&width=2000"
         alt="Hero Background"
-        className="absolute inset-0 w-full h-screen"
+        className="absolute inset-0 w-full h-full"
       />
 
       {/* Dark overlay for readability */}
       <div className="absolute inset-0 bg-black/20"></div>
 
       {/* Hero Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-beige-100 text-center px-4">
         <h2 className="text-3xl md:text-4xl font-bold mb-2">DRESS WITH CLASS</h2>
-        <p className="mb-6">AUTUMN TRIP GIVEAWAY (50% OFF)</p>
+        <p className="mb-4">AUTUMN TRIP GIVEAWAY (50% OFF)</p>
 
         {/* Buttons */}
         <div className="flex gap-4">
-          <button className="px-6 py-2 border border-white rounded hover:bg-white hover:text-black transition">
-            SHOP MEN
+          <button className="px-6 py-2 text-white border border-black rounded hover:bg-beige-400 hover:text-beige-900 transition">
+            SHOP NOW
           </button>
         </div>
       </div>
@@ -76,9 +77,6 @@ export default function Home() {
         <h3 className="text-xl md:text-2xl font-bold text-beige-900">
           SHOP <span className="text-brand">BESTSELLERS</span>
         </h3>
-        <button className="text-sm bg-brand text-white px-4 py-2 rounded hover:bg-brand-dark">
-          VIEW ALL →
-        </button>
       </div>
 
       {/* Products Grid */}
@@ -108,6 +106,8 @@ export default function Home() {
                   .map((_, i) => (
                     <Star key={i} size={16} fill="#d8bfa0" stroke="#d8bfa0" />
                   ))}
+
+                  
                 <span className="text-sm text-beige-700">({product.reviews})</span>
               </div>
             </div>
