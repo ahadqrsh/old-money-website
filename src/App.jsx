@@ -7,11 +7,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <Navbar />
-      </BrowserRouter>
-      <Home/>
-      <Footer/>
+     
     </>
   )
 }
