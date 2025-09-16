@@ -8,7 +8,7 @@ export default function Home() {
     price: "₹6,500",
     save: "₹4,900.00",
     image: "https://tse1.mm.bing.net/th/id/OIP.HTjShK7JAlml8Qq7OWDpowAAAA?rs=1&pid=ImgDetMain&o=7&rm=3",
-    reviews: 68,
+    reviews: 6.8,
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ export default function Home() {
     price: "₹2,800",
     save: "₹1,700.00",
     image: "https://tse2.mm.bing.net/th/id/OIP.hZonpQl_oripetPSdbH5EgHaJ4?rs=1&pid=ImgDetMain&o=7&rm=3",
-    reviews: 18,
+    reviews: 1.8,
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export default function Home() {
     price: "₹7,200",
     save: "₹5,600.00",
     image: "https://tse4.mm.bing.net/th/id/OIP.8dK72aijy7jgXlFxtBhoDAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
-    reviews: 39,
+    reviews: 3.9,
   },
   {
     id: 4,
@@ -32,8 +32,72 @@ export default function Home() {
     price: "₹3,200",
     save: "₹2,100.00",
     image: "https://tse1.mm.bing.net/th/id/OIP.KR1ktjEpcNjKd2Yo6G_9iQHaLH?rs=1&pid=ImgDetMain&o=7&rm=3",
-    reviews: 1,
+    reviews: 4.5,
   },
+  {
+  id: 5,
+    title: "Verbier Half Zip Sweater",
+    price: "₹4,400.00",
+    save: "₹1700.00",
+    image: "https://old-money.com/cdn/shop/files/1_2ec4740c-ce11-4215-8565-9042444dddca.jpg?v=1732766191&width=800",
+    reviews: 4.1,
+   },
+    {
+  id: 6,
+    title: "Old Money Linen Combo (Longsleeve)",
+    price: "₹7600.00",
+    save: "₹5,800.00",
+    image: "https://old-money.com/cdn/shop/files/1_38035054-c7ed-4f89-a612-2a4371e1e034.jpg?v=1732757990&width=800",
+    reviews: 4.9,
+   },
+    {
+  id: 7,
+    title: "Suede Driver Loafers",
+    price: "₹5,300",
+    save: "₹1,000.00",
+    image: "https://old-money.com/cdn/shop/files/1_e37c7788-8537-49b1-867a-308d73519bff.png?v=1742214496&width=800",
+    reviews: 3.8,
+   },
+    {
+  id: 8,
+    title: "The Mandarin Mark",
+    price: "₹3,800",
+    save: "₹2,100.00",
+    image: "https://old-money.com/cdn/shop/files/ImageEdit-OldMoney_9_b6730487-01d1-4d36-ba59-98a40e844c62.jpg?v=1740582356&width=800",
+    reviews: 4.9,
+   },
+    {
+  id: 9,
+    title: "Gentlemen's Striped Shirt",
+    price: "₹4,800",
+    save: "₹3,300.00",
+    image: "https://old-money.com/cdn/shop/files/7V3A6441.png?v=1754928594&width=800",
+    reviews: 68,
+   },
+    {
+  id: 10,
+    title: "Refined Solid T-Shirt",
+    price: "₹2,600",
+    save: "₹600.00",
+    image: "https://old-money.com/cdn/shop/files/SOLIDTEE1_02c46197-61ae-4516-b081-ed5c78137f30.jpg?v=1741979814&width=800",
+    reviews: 4.9,
+   },
+    {
+  id: 11,
+    title: "Old Money Linen Combo (Shorts)",
+    price: "₹6,700",
+    save: "₹6,700.00",
+    image: "https://old-money.com/cdn/shop/files/1_cb3970db-7cbe-454e-9d0e-ac385c833540.jpg?v=1732941628&width=800",
+    reviews: 4.9,
+   },
+   {
+  id: 12,
+    title: "Casablanca - Premium Linen Shorts",
+    price: "₹4,300",
+    save: "₹700.00",
+    image: "https://old-money.com/cdn/shop/files/1_d8ff316a-5869-4873-b37b-03c47ae33276.jpg?v=1732799403&width=800",
+    reviews: 4.5,
+   },
 ];
 
   return (<>
@@ -42,11 +106,11 @@ export default function Home() {
       <img
         src="https://old-money.com/cdn/shop/files/Untitled_3000_x_2000_px_3000_x_1700_px_6.png?v=1757410800&width=2000"
         alt="Hero Background"
-        className="absolute inset-0 w-full h-full"
+        className="absolute inset-0 w-auto mt-5 h-auto"
       />
 
       {/* Dark overlay for readability */}
-      <div className="absolute inset-0 bg-black/20"></div>
+      <div className="absolute inset-0 bg-black/20 w-auto h-auto"></div>
 
       {/* Hero Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-beige-100 text-center px-4">
