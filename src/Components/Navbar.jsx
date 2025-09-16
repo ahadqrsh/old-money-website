@@ -13,7 +13,7 @@ export default function Navbar() {
         </Link>
       <Link to="/mens">   
         <div className="flex items-center gap-1 cursor-pointer hover:underline">
-          SHOP MEN
+          Shop Men
         </div>
       </Link>
       <Link to="/aboutus">
