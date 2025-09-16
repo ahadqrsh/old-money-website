@@ -106,7 +106,8 @@ export default function Home() {
       <img
         src="https://old-money.com/cdn/shop/files/Untitled_3000_x_2000_px_3000_x_1700_px_6.png?v=1757410800&width=2000"
         alt="Hero Background"
-        className="absolute inset-0 w-auto mt-5 h-auto"
+        className="absolute inset-0 w-auto mt-5 h-auto
+        "
       />
 
       {/* Dark overlay for readability */}

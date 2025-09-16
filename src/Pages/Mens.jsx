@@ -26,6 +26,7 @@ export default function Mens() {
     <>
     <Navbar/>
     <div className="min-h-screen bg-gray-50 text-gray-900 mt-16">
+      
       {/* Header / Hero */}
       <header className="bg-white shadow">
         <div className="">
@@ -91,6 +92,7 @@ export default function Mens() {
             </article>
           ))}
         </section>
+        
 
         {/* Load more / gallery footer */}
         <div className="mt-8 text-center">
