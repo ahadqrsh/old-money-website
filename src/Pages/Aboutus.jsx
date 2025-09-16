@@ -4,11 +4,11 @@ const Aboutus = () => {
   return (
     <div className="bg-[#f8f4e3] text-stone-800 font-serif mt-16">
       {/* Header Section */}
-      <header className="bg-[#e5dcc5] py-6 shadow-md">
+      {/* <header className="bg-[#e5dcc5] py-6 shadow-md">
         <div className="container mx-auto px-6">
-          <h1 className="text-4xl font-bold tracking-wide text-stone-900">About Us</h1>
+          <h1 className="text-4xl font-bold tracking-wide text-stone-900"></h1>
         </div>
-      </header>
+      </header> */}
 
       {/* Hero Section */}
       <div className="relative w-screen h-[500px]">
@@ -19,6 +19,7 @@ const Aboutus = () => {
         />
         <div className="absolute inset-0 bg-black/50 flex items-end text-white px-6">
           <div className="flex-col mb-12 max-w-2xl">
+            <h3 className="absolute top-20 left-30 text-5xl font-bold text-beige-200" >ABOUT US</h3>
             <h3 className="text-5xl font-semibold leading-snug">THE OLD <br /> MONEY WAY</h3>
             <p className="mt-4 text-lg">Build your wardrobe with our classic tops & bottoms.</p>
             <p className="text-lg">Mix and match for endless outfits that are always on-point.</p>
