@@ -7,22 +7,22 @@ export default function Navbar() {
       {/* Left Menu */}
       <nav className="flex gap-8 text-sm font-semibold text-beige-800">
       <Link to="/">   
-        <div className="flex items-center gap-1 cursor-pointer">
+        <div className="flex items-center gap-1 cursor-pointer hover:underline">
           Home
         </div>
         </Link>
       <Link to="/mens">   
-        <div className="flex items-center gap-1 cursor-pointer">
+        <div className="flex items-center gap-1 cursor-pointer hover:underline">
           SHOP MEN
         </div>
       </Link>
       <Link to="/aboutus">
-        <div className="flex items-center gap-1 cursor-pointer">
+        <div className="flex items-center gap-1 cursor-pointer hover:underline">
           About Us
         </div>
         </Link>
         <Link to="/contact">
-        <div className="flex items-center gap-1 cursor-pointer">
+        <div className="flex items-center gap-1 cursor-pointer hover:underline">
           Contact Us 
         </div>
         </Link>
