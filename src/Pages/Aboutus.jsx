@@ -19,10 +19,10 @@ const Aboutus = () => {
         />
         <div className="absolute inset-0 bg-black/50 flex items-end text-white px-6">
           <div className="flex-col mb-12 max-w-2xl">
-            <h3 className="absolute top-20 left-30 text-5xl font-bold text-beige-200" >ABOUT US</h3>
-            <h3 className="text-5xl font-semibold leading-snug">THE OLD <br /> MONEY WAY</h3>
-            <p className="mt-4 text-lg">Build your wardrobe with our classic tops & bottoms.</p>
-            <p className="text-lg">Mix and match for endless outfits that are always on-point.</p>
+            {/* <h3 className="absolute top-20 left-30 text-5xl font-bold text-beige-200 hover:underline" >ABOUT US</h3> */}
+            <h3 className="text-5xl absolute top-20 left-30 font-semibold leading-snug">THE OLD <br /> MONEY WAY</h3>
+            <p className=" absolute top-60 left-30 mt-4 text-lg ">Build your wardrobe with our classic tops & bottoms.</p>
+            <p className=" absolute top-60 left-30text-lg ">Mix and match for endless outfits that are always on-point.</p>
           </div>
         </div>
       </div>
